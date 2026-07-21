@@ -18,7 +18,7 @@ export const siteConfig = {
   twitterHandle: "@utsavdarji",
   // Add your Search Console / Bing verification tokens here (optional).
   verification: {
-    google: "",
+    google: "pHkDrqsueZKapriM4krJku7KXBxwQPlwMasSYTvm31A",
     bing: "",
   },
   links: {
