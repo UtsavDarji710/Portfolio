@@ -6,8 +6,8 @@ export const siteConfig = {
     "Utsav Darji is a Software Engineer with 3+ years of experience building scalable full-stack applications, cloud-native systems on Google Cloud, AI-powered SaaS products, and real-time experiences with Next.js, React, Node.js, PostgreSQL, and Redis.",
   subtitle:
     "I build scalable full-stack applications, cloud-native systems, AI-powered products, and delightful user experiences.",
-  url: "https://utsavdarji.dev",
-  ogImage: "https://utsavdarji.dev/og",
+  url: "https://utsavd-portfolio.vercel.app",
+  ogImage: "https://utsavd-portfolio.vercel.app/og",
   email: "utsavdarji102001@gmail.com",
   phone: "+91 6354906794",
   location: "Gujarat, India",
@@ -24,7 +24,7 @@ export const siteConfig = {
   links: {
     github: "https://github.com/utsavdarji",
     linkedin: "https://linkedin.com/in/utsavdarji",
-    portfolio: "https://utsavdarji.dev",
+    portfolio: "https://utsavd-portfolio.vercel.app",
     email: "mailto:utsavdarji102001@gmail.com",
   },
   keywords: [
