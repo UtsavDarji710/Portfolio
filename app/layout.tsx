@@ -161,7 +161,7 @@ const jsonLd = {
       url: siteConfig.url,
       name: siteConfig.title,
       isPartOf: { "@id": websiteId },
-      about: { "@id": personId },
+      mainEntity: { "@id": personId },
       inLanguage: "en-US",
       primaryImageOfPage: siteConfig.ogImage,
     },
