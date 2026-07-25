@@ -22,8 +22,8 @@ export const siteConfig = {
     bing: "",
   },
   links: {
-    github: "https://github.com/utsavdarji",
-    linkedin: "https://linkedin.com/in/utsavdarji",
+    github: "https://github.com/UtsavDarji710",
+    linkedin: "https://linkedin.com/in/utsavdarji7",
     portfolio: "https://utsavd-portfolio.vercel.app",
     email: "mailto:utsavdarji102001@gmail.com",
   },
