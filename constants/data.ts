@@ -153,7 +153,7 @@ export const projects: Project[] = [
     tech: ["Sails.js", "PostgreSQL", "Redis", "WebSockets", "Generative AI APIs"],
     image:
       "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
-    github: "https://github.com/utsavdarji",
+    github: "https://github.com/UtsavDarji710",
     demo: "#",
     gradient: "from-blue-500 via-indigo-500 to-violet-500",
   },
@@ -164,7 +164,7 @@ export const projects: Project[] = [
     tech: ["Node.js", "Strapi", "PostgreSQL", "Stripe", "REST APIs"],
     image:
       "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=80",
-    github: "https://github.com/utsavdarji",
+    github: "https://github.com/UtsavDarji710",
     demo: "#",
     gradient: "from-violet-500 via-purple-500 to-fuchsia-500",
   },
@@ -175,7 +175,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "Tailwind CSS", "JavaScript", "AI", "App Store Connect"],
     image:
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
-    github: "https://github.com/utsavdarji",
+    github: "https://github.com/UtsavDarji710",
     demo: "#",
     gradient: "from-emerald-500 via-teal-500 to-cyan-500",
   },
