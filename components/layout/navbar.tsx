@@ -9,6 +9,7 @@ import { ThemeToggle } from "./theme-toggle";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/constants/site";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const sectionIds = navItems.map((n) => n.href.replace("#", ""));
 
