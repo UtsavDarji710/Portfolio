@@ -9,7 +9,6 @@ import { ThemeToggle } from "./theme-toggle";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/constants/site";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 
 const sectionIds = navItems.map((n) => n.href.replace("#", ""));
 
@@ -47,15 +46,8 @@ export function Navbar() {
         )}
       >
         <a href="#home" className="group flex items-center gap-2">
-          <span className="relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl shadow-md shadow-primary/30">
-            <Image
-              src="/logo.png"
-              alt={`${siteConfig.name} logo`}
-              width={36}
-              height={36}
-              priority
-              className="h-full w-full object-cover"
-            />
+          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-gradient text-sm font-bold text-white shadow-md shadow-primary/30">
+            UD
           </span>
           <span className="hidden text-sm font-semibold sm:block">
             {siteConfig.name}
