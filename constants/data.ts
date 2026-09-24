@@ -147,10 +147,10 @@ export const experiences: ExperienceItem[] = [
 
 export const projects: Project[] = [
   {
-    title: "AI-Powered Enterprise Productivity & Collaboration Suite",
+    title: "Generative AI Productivity & Automation Platform",
     description:
-      "Built an enterprise collaboration platform featuring AI-powered workflows, Redis queues, multi-org architecture, role-based permissions, and real-time collaboration.",
-    tech: ["Sails.js", "PostgreSQL", "Redis", "WebSockets", "Generative AI APIs"],
+      "Developed an AI-powered enterprise productivity and collaboration platform enabling organizations to manage users, custom roles, teams, tasks, and time tracking. Built a comprehensive Generative AI suite supporting text, image, video, sound, and music generation. Integrated Twilio, Tap Payments, Google APIs, and Strapi.",
+    tech: ["React.js", "Node.js", "NestJS", "Strapi", "Generative AI"],
     image:
       "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
     github: "https://github.com/UtsavDarji710",
@@ -158,10 +158,21 @@ export const projects: Project[] = [
     gradient: "from-blue-500 via-indigo-500 to-violet-500",
   },
   {
-    title: "On-Demand Automotive Service Marketplace",
+    title: "Music Distribution & Royalty Management Platform",
     description:
-      "Built a multi-tenant marketplace with booking workflows, Stripe payments, RBAC, workshops, admin dashboard, and webhook-driven payment synchronization.",
-    tech: ["Node.js", "Strapi", "PostgreSQL", "Stripe", "REST APIs"],
+      "Developed a digital music distribution platform enabling users to create albums, publish to YouTube, and track real-time content performance. Implemented royalty sharing, subscription management, and an AI-powered document chat assistant using Gemini API (RAG workflow).",
+    tech: ["Next.js", "Sails.js", "Gemini API", "RAG", "YouTube API"],
+    image:
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80",
+    github: "https://github.com/UtsavDarji710",
+    demo: "#",
+    gradient: "from-purple-500 via-fuchsia-500 to-pink-500",
+  },
+  {
+    title: "Automotive Service & Workshop Management Platform",
+    description:
+      "Developed a vehicle service management platform connecting customers, workshops, and administrators through dedicated role-based workflows. Implemented service appointment booking, approval workflows, and secure online payments via Stripe integration.",
+    tech: ["Next.js", "Strapi", "Stripe"],
     image:
       "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=80",
     github: "https://github.com/UtsavDarji710",
@@ -169,12 +180,23 @@ export const projects: Project[] = [
     gradient: "from-violet-500 via-purple-500 to-fuchsia-500",
   },
   {
-    title: "Travel & Adventure Rental Platform",
+    title: "Freight Transportation & Supply Chain Management System",
     description:
-      "Developed a travel booking platform with AI integrations, dynamic pricing, search, reservations, and a companion iOS application published on the Apple App Store.",
-    tech: ["Next.js", "Tailwind CSS", "JavaScript", "AI", "App Store Connect"],
+      "Developed a Shipper Transportation Management System (STMS) to centralize freight transportation, procurement, and supply-chain operations. Implemented digital workflows for managing interactions between freight shippers and transportation service providers.",
+    tech: ["Next.js", "Sails.js"],
     image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580674285054-bed31e145f59?auto=format&fit=crop&w=1200&q=80",
+    github: "https://github.com/UtsavDarji710",
+    demo: "#",
+    gradient: "from-amber-500 via-orange-500 to-red-500",
+  },
+  {
+    title: "Travel & Rental Marketplace Platform",
+    description:
+      "Developed a multi-category rental marketplace for vehicles, boats, and campsites. Implemented Instant Booking, Host Approval workflows, Twilio OTP authentication, dynamic date-based pricing, and Last-Minute Deals functionality across web and mobile platforms.",
+    tech: ["Next.js", "Tailwind CSS", "Flutter", "Twilio"],
+    image:
+      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80",
     github: "https://github.com/UtsavDarji710",
     demo: "#",
     gradient: "from-emerald-500 via-teal-500 to-cyan-500",

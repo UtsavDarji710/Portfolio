@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { navItems } from "@/constants/navigation";
 import { useActiveSection } from "@/hooks/use-active-section";
 import { ThemeToggle } from "./theme-toggle";
@@ -46,9 +47,13 @@ export function Navbar() {
         )}
       >
         <a href="#home" className="group flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-gradient text-sm font-bold text-white shadow-md shadow-primary/30">
-            UD
-          </span>
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={36}
+            height={36}
+            className="h-9 w-9 rounded-xl object-contain shadow-md shadow-primary/30"
+          />
           <span className="hidden text-sm font-semibold sm:block">
             {siteConfig.name}
           </span>

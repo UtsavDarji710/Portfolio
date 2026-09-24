@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { socialLinks } from "@/constants/navigation";
 import { siteConfig } from "@/constants/site";
 
@@ -8,9 +9,13 @@ export function Footer() {
     <footer className="relative border-t border-white/10 py-10">
       <div className="container flex flex-col items-center justify-between gap-6 sm:flex-row">
         <div className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-gradient text-xs font-bold text-white">
-            UD
-          </span>
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={32}
+            height={32}
+            className="h-8 w-8 rounded-lg object-contain"
+          />
           <p className="text-sm text-muted-foreground">
             © {year} {siteConfig.name}. Crafted with precision.
           </p>
